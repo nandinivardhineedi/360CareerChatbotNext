@@ -1,8 +1,6 @@
 {
-  "/onboarding/page": "app/onboarding/page.js",
-  "/page": "app/page.js",
-  "/chat/page": "app/chat/page.js",
   "/dashboard/page": "app/dashboard/page.js",
-  "/api/chat/route": "app/api/chat/route.js",
-  "/api/roadmap/route": "app/api/roadmap/route.js"
+  "/chat/page": "app/chat/page.js",
+  "/onboarding/page": "app/onboarding/page.js",
+  "/api/chat/route": "app/api/chat/route.js"
 }
