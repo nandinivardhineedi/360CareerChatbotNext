@@ -1,0 +1,493 @@
+# Domain Skill Trends (India & Global) — Quick-reference dataset
+
+> **Purpose:** A compact, copy-paste-ready dataset of current and near-term skill trends across domains. Use this file as part of your RAG knowledge base so the bot can recommend in-demand skills, learning paths, certifications, and example projects for students and early-career professionals.
+
+## Top-level summary (most important trends)
+- Employers are prioritizing **AI & Big Data**, **Cloud & DevOps**, and **Cybersecurity** along with human-centred skills like **analytical thinking, creative problem solving, leadership and lifelong learning**. Major skills reports and employer surveys show these categories leading demand globally and in India. :contentReference[oaicite:0]{index=0}
+
+---
+
+## How to use this file in RAG
+- Each domain section contains:
+  - `trending_skills`: short list (searchable keywords)
+  - `why_it_matters`: 1–2 lines you can display to users
+  - `example_roles`: roles that need these skills
+  - `learning_path`: sequence (beginner → intermediate → advanced)
+  - `recommended_certifications` and `sample_projects` (for portfolio)
+  - `level_guidance`: quick rubric for Junior / Mid / Senior
+
+---
+
+# 1. Artificial Intelligence & Machine Learning (AI/ML)
+trending_skills:
+- Prompt engineering, Foundation models, LLM fine-tuning
+- Machine learning fundamentals (supervised/unsupervised)
+- Deep learning (CNNs, RNNs, Transformers)
+- Model evaluation, MLOps, model interpretability, ethics & bias
+
+why_it_matters:
+- AI is reshaping tasks across industries — automation, personalization and predictive decision-making are in heavy demand.
+
+example_roles:
+- ML Engineer, AI Researcher, ML Ops Engineer, Prompt Engineer, Applied Scientist
+
+learning_path:
+- Beginner: Python, statistics, linear algebra, basic ML (scikit-learn)
+- Intermediate: Deep learning (PyTorch/TensorFlow), model deployment basics, SQL
+- Advanced: LLM fine-tuning, MLOps (Docker, Kubernetes), model governance & explainability
+
+recommended_certifications:
+- Coursera/DeepLearning.AI specializations, Google Cloud Professional ML Engineer, AWS ML Specialty
+
+sample_projects:
+- Build and deploy a sentiment-analysis model; fine-tune an open LLM for domain Q&A; implement an image-classifier with explainability dashboard
+
+level_guidance:
+- Junior: implements models from tutorials and contributes to data cleaning
+- Mid: owns model training pipelines and evaluation metrics
+- Senior: designs production ML systems, leads MLOps and governance
+
+---
+
+# 2. Data & Analytics
+trending_skills:
+- Data engineering (ETL, pipelines), SQL, data modelling
+- Data visualization & storytelling (Tableau / Power BI)
+- Statistical analysis, causal inference, time-series forecasting
+- Big data tools: Spark, Hadoop; feature engineering for ML
+
+why_it_matters:
+- Data skills convert raw logs into insight — essential for informed decisions and product/marketing optimization.
+
+example_roles:
+- Data Analyst, Data Engineer, Business Intelligence (BI) Developer, Analytics Manager
+
+learning_path:
+- Beginner: Excel, SQL, descriptive stats, basic dashboards
+- Intermediate: Python/R for analysis, ETL pipelines, SQL optimization
+- Advanced: Distributed systems (Spark), data platform design, real-time analytics
+
+recommended_certifications:
+- Google Data Analytics Certificate, Microsoft Power BI, Databricks certifications
+
+sample_projects:
+- End-to-end analytics project: ingestion → cleaning → dashboard → insight-driven recommendation; Kaggle competition entry
+
+level_guidance:
+- Junior: builds dashboards & ad-hoc reports
+- Mid: designs ETL pipelines and owns data quality
+- Senior: defines data platform strategy and governance
+
+---
+
+# 3. Cloud & DevOps / Site Reliability (SRE)
+trending_skills:
+- Cloud platforms (AWS/Azure/GCP), infrastructure as code (Terraform), containerization (Docker), Kubernetes
+- CI/CD pipelines, monitoring (Prometheus/Grafana), cost optimisation, cloud security
+
+why_it_matters:
+- Cloud-first architectures require engineers who can deploy and maintain resilient, scalable systems.
+
+example_roles:
+- Cloud Engineer, DevOps Engineer, SRE, Platform Engineer
+
+learning_path:
+- Beginner: Linux, shell scripting, basic cloud fundamentals
+- Intermediate: Docker, Kubernetes, Terraform, CI/CD tools (Jenkins/GitHub Actions)
+- Advanced: Multi-cloud architectures, SRE practices (SLIs/SLOs), chaos engineering
+
+recommended_certifications:
+- AWS Certified Solutions Architect, Google Professional Cloud DevOps, Certified Kubernetes Administrator (CKA)
+
+sample_projects:
+- Create a microservice, containerize it, deploy to k8s on a managed cloud, implement CI/CD and monitoring
+
+level_guidance:
+- Junior: automates small deployments and fixes CI issues
+- Mid: builds repeatable infra modules and cost-aware systems
+- Senior: designs resilient platform and leads cloud migration
+
+---
+
+# 4. Cybersecurity & Privacy
+trending_skills:
+- Threat detection, incident response, secure coding, cloud security, IAM
+- Privacy engineering (data masking, GDPR/India DP compliance), pentesting
+
+why_it_matters:
+- As digital systems expand, securing systems and user data is mission-critical across sectors.
+
+example_roles:
+- Security Analyst, Security Engineer, Application Security (AppSec), SOC Analyst, Privacy Engineer
+
+learning_path:
+- Beginner: networking, OS fundamentals, basic security concepts
+- Intermediate: vulnerability scanning, SIEM tools, secure development lifecycle
+- Advanced: red teaming, cloud security architecture, threat hunting
+
+recommended_certifications:
+- CompTIA Security+, CEH, OSCP, CISSP (for senior roles)
+
+sample_projects:
+- Run a vulnerability assessment on a web app, implement secure CI/CD, and document an incident response playbook
+
+level_guidance:
+- Junior: triages alerts and fixes known vulnerabilities
+- Mid: secures architecture and leads pentests
+- Senior: defines security strategy and compliance
+
+---
+
+# 5. Software Engineering & Full-Stack Development
+trending_skills:
+- Modern web stacks (React/Angular + Node/Python/Go), microservices, APIs (GraphQL/REST)
+- Testing, code quality, design patterns, scalability, serverless architectures
+
+why_it_matters:
+- Core of digital products — robust engineering yields scalable, maintainable software.
+
+example_roles:
+- Frontend Developer, Backend/Systems Engineer, Full-stack Engineer, Technical Lead
+
+learning_path:
+- Beginner: HTML/CSS/JS, basic backend (Flask/Express), Git
+- Intermediate: Frameworks (React, Django), databases, caching, testing
+- Advanced: Distributed systems, performance tuning, system design
+
+recommended_certifications:
+- Cloud provider developer certs, coding bootcamp certificates, domain-specific micro-credentials
+
+sample_projects:
+- Full-stack app with auth, PostgreSQL DB, REST/GraphQL API, unit + integration tests, deployed on cloud
+
+level_guidance:
+- Junior: implements features and fixes bugs
+- Mid: owns services and design decisions
+- Senior: architects systems and mentors teams
+
+---
+
+# 6. Product Management & Business Skills
+trending_skills:
+- Product discovery, metrics/KPIs, A/B testing, stakeholder management, roadmap prioritization
+- Data literacy, basic analytics, experimentation design
+
+why_it_matters:
+- PMs translate user needs into product features and align engineering with business outcomes.
+
+example_roles:
+- Associate Product Manager, Product Manager, Growth PM, Product Ops
+
+learning_path:
+- Beginner: product thinking, user research basics, Excel/SQL basics
+- Intermediate: roadmapping, OKRs, metrics design, stakeholder communication
+- Advanced: leadership, scaling product orgs, go-to-market strategy
+
+recommended_certifications:
+- Product School, Pragmatic Institute, Coursera PM specializations
+
+sample_projects:
+- Run a discovery sprint, design an MVP, instrument metrics and run an A/B test to measure impact
+
+level_guidance:
+- Junior: supports product discovery & PRDs
+- Mid: owns features and metrics
+- Senior: defines product strategy and P&L accountability
+
+---
+
+# 7. Design & Creative (UI/UX, Visual, Motion)
+trending_skills:
+- UX research, interaction design, prototyping (Figma), accessibility, motion design
+- Design systems, user testing, service design
+
+why_it_matters:
+- Good UX reduces churn and accelerates adoption; designers are key in product-market fit.
+
+example_roles:
+- UX Researcher, UI Designer, Product Designer, Motion Designer
+
+learning_path:
+- Beginner: basic design principles, Figma, wireframes
+- Intermediate: user research methods, prototyping, usability testing
+- Advanced: design systems, leadership in design, service design
+
+recommended_certifications:
+- Google UX Design Certificate, Interaction Design Foundation courses
+
+sample_projects:
+- Create a case-study: research → wireframes → prototype → user testing → final UI and metrics
+
+level_guidance:
+- Junior: executes UI/UX tasks and prototypes
+- Mid: conducts user research and leads product design
+- Senior: shapes product vision and design ops
+
+---
+
+# 8. Hardware, Embedded & ECE-related Skills
+trending_skills:
+- Embedded C/C++, RTOS, firmware development, PCB design, VLSI basics
+- IoT architectures, sensor integration, low-power design
+
+why_it_matters:
+- Physical products (consumer electronics, industrial IoT) require robust embedded skillsets.
+
+example_roles:
+- Embedded Systems Engineer, VLSI Engineer, Hardware Design Engineer, IoT Engineer
+
+learning_path:
+- Beginner: C programming, basic electronics, breadboard projects
+- Intermediate: microcontrollers (ARM), PCB design (KiCad/Altium), basic RF/wireless
+- Advanced: SoC design, semiconductor verification (UVM), low-level optimizations
+
+recommended_certifications:
+- Embedded systems courses (Coursera/NPTEL), Cadence/ARM certifications, VLSI specialization
+
+sample_projects:
+- Build an IoT sensor node (MCU + LoRa/WiFi), PCB, firmware, cloud dashboard
+
+level_guidance:
+- Junior: brings up modules and debugs boards
+- Mid: owns firmware and product integration
+- Senior: leads SoC/VLSI design or hardware architecture
+
+---
+
+# 9. Electrical / Power / Renewable Energy Skills (EEE & Renewable)
+trending_skills:
+- Power electronics, inverter design, grid-integration for renewables, battery management systems (BMS)
+- Solar PV system design, wind farm siting, energy storage systems
+
+why_it_matters:
+- Transition to green energy creates demand for power engineers and storage/grid specialists.
+
+example_roles:
+- Power Systems Engineer, Solar Design Engineer, Energy Analyst, BMS Engineer
+
+learning_path:
+- Beginner: circuit theory, power systems basics
+- Intermediate: power electronics, inverter design, grid codes
+- Advanced: microgrids, smart grid, energy market modelling
+
+recommended_certifications:
+- Specialized programs (TERI, NPTEL), vendor certs (ABB, Siemens), PVsyst training
+
+sample_projects:
+- Design a rooftop solar + battery system, simulate output, and provide ROI analysis
+
+level_guidance:
+- Junior: supports simulations and small installations
+- Mid: manages plant commissioning and monitoring
+- Senior: leads large projects and policy compliance
+
+---
+
+# 10. Mechanical / Manufacturing / Automation Skills
+trending_skills:
+- CAD/CAM, CNC programming, additive manufacturing (3D printing)
+- Robotics integration, PLC programming, industrial automation, digital twins
+
+why_it_matters:
+- Smart manufacturing (Industry 4.0) requires multi-disciplinary mechanical + software skills.
+
+example_roles:
+- Design Engineer, Manufacturing Engineer, Automation Engineer, Additive Manufacturing Specialist
+
+learning_path:
+- Beginner: CAD, manufacturing processes basics
+- Intermediate: FEA/CFD, CNC, PLCs, basics of robotics
+- Advanced: Digital twin, factory automation, industrial IoT
+
+recommended_certifications:
+- SolidWorks, ANSYS, Autodesk, Siemens PLM certifications, PLC vendor certs
+
+sample_projects:
+- Design and 3D-print a prototype, set up a simple PLC-driven pick-and-place demo
+
+level_guidance:
+- Junior: prepares CAD and supports production
+- Mid: optimizes production lines and leads automation
+- Senior: manages manufacturing strategy and digital transformation
+
+---
+
+# 11. Civil / Construction / Infrastructure Skills
+trending_skills:
+- BIM (Revit), structural analysis software (ETABS/STAAD), geotechnical modelling
+- Sustainable construction, construction management, smart-city systems
+
+why_it_matters:
+- Urbanisation and infrastructure plans need engineers with digital construction and sustainability skills.
+
+example_roles:
+- Structural Engineer, Site Manager, BIM Coordinator, Environmental Engineer
+
+learning_path:
+- Beginner: engineering fundamentals, AutoCAD
+- Intermediate: STAAD/ETABS, Revit/BIM, project management
+- Advanced: infrastructure planning, sustainable design, urban analytics
+
+recommended_certifications:
+- Revit/BIM certification, PMP or construction management diplomas
+
+sample_projects:
+- BIM model of a small building + structural checks and cost-estimation document
+
+level_guidance:
+- Junior: drafting and site supervision
+- Mid: manages designs and contractor coordination
+- Senior: leads large infrastructure projects and compliance
+
+---
+
+# 12. Business, Finance & Commerce Skills
+trending_skills:
+- Financial modelling, valuations, Excel + Power Query, FinTech (blockchain/payments)
+- Data-driven decision making, automation of finance processes (RPA)
+
+why_it_matters:
+- Automation + analytics are reshaping finance roles; domain experts must be digitally literate.
+
+example_roles:
+- Financial Analyst, Investment Analyst, Risk Analyst, FinOps
+
+learning_path:
+- Beginner: accounting basics, Excel
+- Intermediate: financial modelling, SQL for analysts, Power BI/Tableau
+- Advanced: algorithmic trading basics, blockchain concepts, risk modelling
+
+recommended_certifications:
+- CFA (for investment), FRM (risk), Chartered Accountant (CA) pathway, Financial modelling certifications
+
+sample_projects:
+- Build a discounted cash flow model and dashboard for company analysis
+
+level_guidance:
+- Junior: prepares reports and data
+- Mid: builds models, advises stakeholders
+- Senior: leads finance strategy and risk governance
+
+---
+
+# 13. Marketing, Content & Digital Skills
+trending_skills:
+- Digital marketing (SEO, SEM), content strategy, performance marketing, growth hacking
+- Analytics for marketing, short-form video production, community management
+
+why_it_matters:
+- Digital channels are primary growth drivers; marketers must measure and optimize ROI.
+
+example_roles:
+- Digital Marketer, Growth Marketer, Content Strategist, SEO Specialist
+
+learning_path:
+- Beginner: marketing fundamentals, Google Analytics, basic content creation
+- Intermediate: paid media, conversion optimization, video editing
+- Advanced: marketing analytics, lifecycle marketing, growth experiments
+
+recommended_certifications:
+- Google Ads/Analytics, HubSpot Content/Inbound certifications, Meta Blueprint
+
+sample_projects:
+- Run a paid campaign, A/B test landing pages, and report CAC & LTV improvements
+
+level_guidance:
+- Junior: executes campaigns and monitors KPIs
+- Mid: owns campaigns and growth experiments
+- Senior: defines marketing strategy and GTM plans
+
+---
+
+# 14. Soft / Human Skills (cross-domain)
+trending_skills:
+- Analytical thinking, creativity & problem solving
+- Communication, leadership, stakeholder management, adaptability
+- Lifelong learning and curiosity; digital literacy
+
+why_it_matters:
+- Employers continue to value human skills that AI cannot fully replace and which multiply technical impact.
+
+example_roles:
+- Universal across roles — critical for managers, client-facing employees, and product teams
+
+learning_path:
+- Beginner: public speaking, basic project work
+- Intermediate: leadership workshops, negotiation, facilitation
+- Advanced: organizational change, executive coaching
+
+recommended_certifications:
+- Toastmasters, leadership programs (ISB/IIM exec ed), negotiation courses
+
+sample_projects:
+- Lead a cross-functional mini-project; present results to stakeholders and collect feedback
+
+level_guidance:
+- Junior: effective communication and teamwork
+- Mid: leading small teams and stakeholder alignment
+- Senior: strategy, culture & organizational leadership
+
+---
+
+# 15. Sustainability, ESG & Green Skills
+trending_skills:
+- ESG reporting, carbon accounting, sustainable design, circular economy principles
+- Green finance, sustainable supply chains, climate risk modelling
+
+why_it_matters:
+- Regulatory pressure and investor preferences are driving demand for sustainability expertise across industries.
+
+example_roles:
+- Sustainability Analyst, ESG Manager, Carbon Analyst, Green Finance Specialist
+
+learning_path:
+- Beginner: basics of sustainability and reporting frameworks (GRI, TCFD)
+- Intermediate: carbon accounting, lifecycle analysis, sustainability metrics
+- Advanced: green investment strategies, climate risk modelling
+
+recommended_certifications:
+- GRI certified courses, sustainability modules on Coursera, CFA ESG certificates
+
+sample_projects:
+- Conduct a basic carbon footprint audit for a small company and recommend reduction roadmap
+
+level_guidance:
+- Junior: collects ESG data and prepares reports
+- Mid: sets targets and implements programs
+- Senior: leads corporate sustainability and investor relations
+
+---
+
+## Cross-domain learning resources (common)
+- **Technical MOOCs**: Coursera, edX, NPTEL (IIT/IISc), Udemy
+- **Practice / Coding**: LeetCode, HackerRank, Kaggle
+- **Cloud / Infra**: AWS, GCP, Azure official training
+- **Design / Creativity**: Figma community, Interaction Design Foundation
+- **Business / Finance**: CFA Institute, CFI, Investopedia
+- **Security**: Offensive Security (OSCP), SANS (senior)
+- **Cert Aggregators**: LinkedIn Learning, Great Learning, Simplilearn
+
+---
+
+## Signals & content tags for retrieval (useful for RAG)
+- `skill_trend:ai_ml`, `skill_trend:cloud_devops`, `skill_trend:cybersecurity`, `skill_trend:data_analytics`, `skill_trend:design_uiux`, `skill_trend:manufacturing_automation`, `skill_trend:renewable_energy`, `skill_trend:sustainability_esg`, `skill_trend:soft_skills`, `skill_trend:product_management`
+
+---
+
+## Short FAQ snippets (ready for bot replies)
+- **Q:** "What high-value technical skill should I learn in 2025?"  
+  **A:** "Start with AI & data fundamentals (Python, statistics), then add MLOps or Cloud skills to make models production-ready." :contentReference[oaicite:1]{index=1}
+
+- **Q:** "Do soft skills still matter?"  
+  **A:** "Yes — leadership, analytical thinking, creativity and learning agility rank among the fastest-growing employer priorities." :contentReference[oaicite:2]{index=2}
+
+- **Q:** "How should a 10th/12th student prioritize skills?"  
+  **A:** "Build strong foundations (Math, English, digital literacy). Pick one technical skill (e.g., coding or data) + one creative/communication skill (design, storytelling) and iterate through projects."
+
+---
+
+## Maintenance notes for dataset builders
+- **Update cadence:** Quarterly — skill demand shifts rapidly (AI & cloud updates, new frameworks).
+- **Sources to refresh from:** WEF Future of Jobs, Coursera Job Skills Report, LinkedIn Emerging Jobs India, NASSCOM talent reports, national skills surveys (Wheebox India Skills Report).
+- **Versioning:** append `#vYYYYMM` to filename when refreshing (e.g., `domain_skill_trends_v202508.md`).
+
