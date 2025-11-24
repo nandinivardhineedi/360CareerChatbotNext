@@ -1,0 +1,8 @@
+Interview Preparation Questions:
+- "Tell me about yourself" – Prepare a concise introduction covering education, projects, and career goals.
+- "What are your strengths and weaknesses?" – Focus on technical strengths (Python, ML, React) and your learning mindset.
+- "Describe a challenging project and how you solved problems" – Refer to hackathons, college events, or technical projects.
+- "Why are you interested in this role/company?" – Mention specific alignment with your skills and long-term goals.
+- "How do you keep your technical skills updated?" – Talk about online courses, events, and ongoing learning.
+- Technical exercises – Practice Python coding, SQL queries, and common algorithms/DS questions.
+- For ML/Data Science – Prepare for basic EDA, regression/classification questions, and simple model evaluation.

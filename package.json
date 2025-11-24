@@ -1,0 +1,46 @@
+{
+  "name": "ai360-career-demo",
+  "version": "1.0.0",
+  "description": "AI 360 Career Chatbot Demo built with Next.js, LangChain, Nomic Embeddings, and Local LLM",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev -p 5050",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit",
+    "clean": "rimraf .next"
+  },
+  "dependencies": {
+    "@langchain/community": "^0.0.56",
+    "@langchain/core": "^1.0.1",
+    "@vercel/analytics": "^1.5.0",
+    "faiss-node": "^0.5.1",
+    "lucide-react": "^0.548.0",
+    "next": "^14.2.3",
+    "ollama": "^0.6.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "@types/react": "19.1.11",
+    "autoprefixer": "10.4.19",
+    "cross-env": "^7.0.3",
+    "eslint": "8.57.0",
+    "eslint-config-next": "14.2.5",
+    "postcss": "8.4.39",
+    "rimraf": "^6.0.1",
+    "tailwindcss": "3.4.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
