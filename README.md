@@ -21,9 +21,9 @@ An intelligent career assistant designed to deliver **personalized career guidan
 ## 🛠️ Tech Stack:
 
 *   **AI/NLP:** Retrieval-Augmented Generation (RAG), LangChain, FAISS
-*   **Frontend:** Next.js (React)
+*   **Frontend:** Next.js
 *   **Backend:** Next.js API Routes (Node.js/Express equivalent)
-*   **Database:** MongoDB
+*   **Database:** Firestore
 *   **Language:** Python (for ML service), TypeScript/JavaScript (for Next.js)
 # Here are the Images:
 
